@@ -2,9 +2,12 @@ import React, { Fragment, useState } from 'react';
 import './Navbar.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RiCloseLine } from 'react-icons/ri';
-import { AiOutlineBars } from 'react-icons/ai';
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
   return (
     <Fragment>
       <nav className="container navbar">
@@ -14,7 +17,7 @@ const Navbar = () => {
             </p>
           </div>
           <menu>
-            <ul className="nav-links">
+            <ul className="nav-links" id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}>
               <li>
                 <a href="#">Home</a>
               </li>
@@ -29,7 +32,7 @@ const Navbar = () => {
               </li>
             </ul>
           </menu>
-          <div className='menu-icons'>
+          <div className='menu-icons' onClick={toggleMenu}>
             {
               showMenu ? (<RiCloseLine color='white' size={30} />)
               : (<GiHamburgerMenu color='white' size={33} />)
