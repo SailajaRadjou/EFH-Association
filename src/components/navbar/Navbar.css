@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-text {
+    font-size: 4rem;
+    font-weight: 300;
+    color: var(--color-white);
+  }
+  
+  .logo-text span {
+    font-weight: 600;
+    color: orangered;
+  }
+  
+  .nav-links {
+    display: flex;
+    color: #fff;
+  }
+  
+  .nav-links li {
+    margin-left: 10px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--color-white);
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: all 0.3s;
+  }
+  .nav-links a:hover,
+  #nav-links-mobile a:hover {
+    color: orangered;
+  }
+  

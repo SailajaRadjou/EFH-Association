@@ -1,11 +1,19 @@
 
 import './App.css';
-
+import Header from './components/header/Header';
+import Navbar from './components/navbar/Navbar';
+import Features from './components/features/Features';
+import Footer from './components/footer/Footer';
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome</h1>
-    </div>
+    <main>
+      <header className='header-bg'>
+    <Navbar />
+    <Header />
+      </header>
+    <Features />  
+    <Footer />
+    </main>
   );
 }
 
