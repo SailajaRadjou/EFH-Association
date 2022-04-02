@@ -8,8 +8,8 @@ function App() {
   return (
     <main>
       <header className='header-bg'>
-    <Navbar />
-    <Header />
+        <Navbar />
+        <Header />
       </header>
     <Features />  
     <Footer />

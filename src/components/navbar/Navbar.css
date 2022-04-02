@@ -6,12 +6,22 @@
   }
   .logo {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
   }
-  
+  .logo_img
+  {
+    width: 5rem;
+    height: 5rem;
+  }
+  .logo_title{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
   .logo-text {
-    font-size: 4rem;
+    display: flex;
+    font-size: 2rem;
     font-weight: 300;
     color: var(--color-white);
   }
@@ -32,7 +42,7 @@
   }
   
   .nav-links a {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: var(--color-white);
     text-decoration: none;

@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import './Navbar.css';
+import logo_img from '../tinified_images/logo_asso.jpg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RiCloseLine } from 'react-icons/ri';
 
@@ -13,22 +14,28 @@ const Navbar = () => {
       <nav className="container navbar">
           <div className="logo">
             <p className="logo-text">
-                Social<span>X</span>
+              <span> <img src={logo_img} className="logo_img" alt="Logo Association EFH" /></span><span className='logo_title'>Espace Femmes et Handicaps</span>
             </p>
           </div>
           <menu>
             <ul className="nav-links" id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}>
               <li>
-                <a href="#">Home</a>
+                <a href="#">Accueil</a>
               </li>
               <li>
-                <a href="#features">Features</a>
+                <a href="#features">Nos artistes</a>
               </li>
               <li>
-                <a href="#download">Download</a>
+                <a href="#subscribe">Galeries</a>
               </li>
               <li>
-                <a href="#subscribe">Subscribe</a>
+                <a href="#features">Nos évenements</a>
+              </li>
+              <li>
+                <a href="#download">Sorties/Loisirs</a>
+              </li>
+              <li>
+                <a href="#subscribe">Contact</a>
               </li>
             </ul>
           </menu>
