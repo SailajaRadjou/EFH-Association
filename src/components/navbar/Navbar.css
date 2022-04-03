@@ -60,18 +60,27 @@
   }
   
   /* Media Queries */
-  @media screen and (max-width: 769px) {
-    /* hide nav button on navbar */
-    .nav-btn {
-      display: none;
+  @media screen and (min-width: 300px) and (max-width: 600px){
+    .logo-text {
+      font-size: 1.3rem;
+      font-weight: 150;
+      
+    }
+    .navbar {
+      height: 5rem;
+    }
+    .logo_img
+    {
+      width: 4rem;
+      height: 4rem;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 300px) and (max-width: 1024px){
     /* show nav button on navbar menu */
-    .nav-btn {
-      display: block;
+    
+    .navbar {
+      height: 7rem;
     }
-  
     .nav-links {
       display: none;
       border: 2px solid var(--color-white);
