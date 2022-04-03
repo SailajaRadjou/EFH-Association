@@ -2,8 +2,7 @@ import React, { Fragment, useEffect } from "react";
 import "./Features.css";
 import { BsFillBookmarkStarFill, BsFillPaletteFill, BsChevronDoubleRight } from "react-icons/bs";
 import photoArtiste from "../tinified_images/Bayaluce_photo.jpg";
-import Feature from "./Feature";
-import { FeatureList } from "./data";
+
 
 const Features = () => {
   return (
