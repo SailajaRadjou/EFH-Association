@@ -2,8 +2,9 @@
 import './App.css';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
-import Features from './components/features/Features';
+import Features from './components/artistes/Features';
 import Footer from './components/footer/Footer';
+import Galerie from './components/galerie/Galerie';
 function App() {
   return (
     <main>
@@ -11,7 +12,8 @@ function App() {
         <Navbar />
         <Header />
       </header>
-    <Features />  
+    <Features /> 
+    <Galerie /> 
     <Footer />
     </main>
   );
