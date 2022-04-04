@@ -28,3 +28,8 @@ section#galerie {
     background: var(--color-white);
     transform: translateX(-50%);
   }
+
+  .galerie_image{
+    width: auto;
+    height: 500px;
+  }
