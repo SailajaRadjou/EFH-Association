@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar';
 import Features from './components/artistes/Features';
 import Footer from './components/footer/Footer';
 import Galerie from './components/galerie/Galerie';
+import Evenement from './components/evenement/Evenement';
 function App() {
   return (
     <main>
@@ -13,7 +14,8 @@ function App() {
         <Header />
       </header>
     <Features /> 
-    <Galerie /> 
+    <Galerie />
+    <Evenement /> 
     <Footer />
     </main>
   );

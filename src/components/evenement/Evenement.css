@@ -1,0 +1,26 @@
+.evenement h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.0;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+.evenements-titre{
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 1.8;
+    color: rgb(13, 13, 109);
+    font-style: italic;
+}  
+.evenements-description p{
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px)
+{
+    .evenement h2 {
+        font-size: 1.8rem;
+    }
+}        

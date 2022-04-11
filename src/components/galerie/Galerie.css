@@ -13,17 +13,17 @@ section#galerie {
   .BrainhubCarouselItem {
     display: block !important;
   }  
-  .galarie h2 {
-    font-size: 3rem;
-    font-weight: 200;
-    line-height: 1.4;
+  .galerie h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.0;
     text-transform: uppercase;
     margin: 1.5rem 0;
     position: relative;
     padding-bottom: 1rem;
   }
   
-  .galarie h2::after {
+  .galerie h2::after {
     content: "";
     position: absolute;
     left: 50%;

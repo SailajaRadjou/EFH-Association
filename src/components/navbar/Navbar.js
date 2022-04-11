@@ -26,13 +26,10 @@ const Navbar = () => {
                 <a href="#features">Nos artistes</a>
               </li>
               <li>
-                <a href="#subscribe">Galeries</a>
+                <a href="#galerie">Galeries</a>
               </li>
               <li>
-                <a href="#features">Nos évenements</a>
-              </li>
-              <li>
-                <a href="#download">Sorties/Loisirs</a>
+                <a href="#evenement">Nos évenements</a>
               </li>
               <li>
                 <a href="#subscribe">Contact</a>

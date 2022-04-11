@@ -52,12 +52,15 @@ h1 span:nth-child(2), h1 span:nth-child(3)
     width: 60%;
 }
 .header-right p{
-    display: flex;
-    justify-content: center;
     margin: 1rem 0;
     color: var(--color-white);
     text-align: justify;
     font-size: 1.2rem;
+}
+.img-header-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
 .header-left p
@@ -78,6 +81,10 @@ h1 span:nth-child(2), h1 span:nth-child(3)
 {
     width: auto;
    
+}
+.img-header-artist-name{
+    font-style: italic;
+    font-size: .9rem !important;
 }
 .header-right img {
     width: 100%;
