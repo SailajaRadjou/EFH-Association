@@ -6,6 +6,7 @@ import Features from './components/artistes/Features';
 import Footer from './components/footer/Footer';
 import Galerie from './components/galerie/Galerie';
 import Evenement from './components/evenement/Evenement';
+import Contacte from './components/contacte/Contacte';
 function App() {
   return (
     <main>
@@ -16,6 +17,7 @@ function App() {
     <Features /> 
     <Galerie />
     <Evenement /> 
+    <Contacte />
     <Footer />
     </main>
   );

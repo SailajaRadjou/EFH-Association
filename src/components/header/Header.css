@@ -84,7 +84,7 @@ h1 span:nth-child(2), h1 span:nth-child(3)
 }
 .img-header-artist-name{
     font-style: italic;
-    font-size: .9rem !important;
+    font-size: 1rem !important;
 }
 .header-right img {
     width: 100%;
