@@ -25,6 +25,7 @@ const Header = () => {
           </div>
           <div className="header-right">
             <img src={imageHeader} className="img-header" alt="phone" />
+            <p>Dessiné par BAYA LUCE</p>
           </div>
         </div>
         <div className="floating-icon">

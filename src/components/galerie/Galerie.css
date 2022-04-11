@@ -7,7 +7,12 @@ section#galerie {
     text-align: center;
     color: #fff;
   }
-  
+  .galerie{
+    padding: 0;
+  }
+  .BrainhubCarouselItem {
+    display: block !important;
+  }  
   .galarie h2 {
     font-size: 3rem;
     font-weight: 200;
