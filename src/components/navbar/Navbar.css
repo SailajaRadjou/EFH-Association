@@ -29,6 +29,7 @@
   .logo-text span {
     font-weight: 600;
     color: orangered;
+    padding: .3rem;
   }
   
   .nav-links {

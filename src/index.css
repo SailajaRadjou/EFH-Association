@@ -33,7 +33,9 @@ body {
   font-family: var(--font-family);
   font-size: 10px;
 }
-
+a{
+  text-decoration: none;
+}
 section {
   width: 100%;
   padding: 8rem 0;

@@ -13,9 +13,9 @@ const Navbar = () => {
     <Fragment>
       <nav className="container navbar">
           <div className="logo">
-            <p className="logo-text">
+            <div className="logo-text">
               <span> <img src={logo_img} className="logo_img" alt="Logo Association EFH" /></span><span className='logo_title'>Espace Femmes et Handicaps</span>
-            </p>
+            </div>
           </div>
           <menu>
             <ul className="nav-links" id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <a href="#evenement">Nos évenements</a>
               </li>
               <li>
-                <a href="#subscribe">Contact</a>
+                <a href="#contacte">Contact</a>
               </li>
             </ul>
           </menu>
