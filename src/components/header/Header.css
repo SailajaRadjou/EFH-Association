@@ -93,7 +93,7 @@ h1 span:nth-child(2), h1 span:nth-child(3)
 
 .floating-icon
 {
-    background-color: var(--light-blue);
+    background: radial-gradient(circle, rgba(0,102,178,1) 30%, rgba(10,35,81,1) 70%);
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
