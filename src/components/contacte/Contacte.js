@@ -1,9 +1,11 @@
 import React, { Fragment } from 'react';
+import ScrollToTop from "react-scroll-to-top";
 import "./Contacte.css";
 
 function Contacte() {
   return (
       <Fragment>
+          <ScrollToTop smooth />
         <section id="contacte" className='contacte-bg'>
             <div className="container contacte">
                 <div className="contacte-left" data-aos="fade-right">
