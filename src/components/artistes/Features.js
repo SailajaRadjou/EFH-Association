@@ -1,10 +1,16 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useState } from "react";
 import "./Features.css";
 import { BsFillBookmarkStarFill, BsFillPaletteFill, BsChevronDoubleRight } from "react-icons/bs";
 import photoArtiste from "../tinified_images/Bayaluce_photo.jpg";
-
+import Creation from "../creation/Creation";
+import { Link } from "react-router-dom";
 
 const Features = () => {
+ 
+      const [auth, setAuth] = useState(false);
+      if(auth){
+        return <Creation />
+      }
   return (
     <Fragment>
       <section id="features">
@@ -26,7 +32,9 @@ const Features = () => {
                   Baya Luce improvise à la manière d’Henri Michaud, d’une écriture toute faites de résonnances, d’enchainements visuels inattendus, s’accordant parfois de paisibles temps de pauses.
                 </p>
                 <div className="features-oeuvres">
-                  <BsFillPaletteFill color="orangered" size={30} /><h4>Ses Oeuvres</h4><BsChevronDoubleRight color="orangered" size={30} />
+                  <BsFillPaletteFill color="orangered" size={30} />
+                  <Link to="/creation"><h4> Ses Oeuvres </h4></Link>
+                  <BsChevronDoubleRight color="orangered" size={30} />
                 </div>  
             </div>
           </div>
@@ -36,4 +44,4 @@ const Features = () => {
   );
 }
 
-export default Features
+export default Features;

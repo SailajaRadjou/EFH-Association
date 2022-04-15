@@ -1,26 +1,17 @@
 
 import './App.css';
-import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
-import Features from './components/artistes/Features';
-import Footer from './components/footer/Footer';
-import Galerie from './components/galerie/Galerie';
-import Evenement from './components/evenement/Evenement';
-import Contacte from './components/contacte/Contacte';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Main from './components/mainPage/Main';
+import Creation from './components/creation/Creation';
 function App() {
   return (
-    <main>
-      <header className='header-bg'>
-        <Navbar />
-        <Header />
-      </header>
-    <Features /> 
-    <Galerie />
-    <Evenement /> 
-    <Contacte />
-    {/*<Footer />*/}
-    </main>
+      <Router>
+        
+        <Routes>
+          <Route path='/main' element={<Main />} />
+          <Route path="/creation" element={<Creation />} />
+        </Routes>
+      </Router>    
   );
 }
-
 export default App;
