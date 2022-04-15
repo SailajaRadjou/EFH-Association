@@ -18,7 +18,7 @@ function App() {
     <Galerie />
     <Evenement /> 
     <Contacte />
-    <Footer />
+    {/*<Footer />*/}
     </main>
   );
 }
