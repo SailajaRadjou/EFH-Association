@@ -34,6 +34,11 @@
     align-items: center;
     margin-top: 3rem;
   }
+  .features-description{
+    font-size: 1.35rem;
+    line-height: 1.4;
+    font-weight: 500;
+  }
   .features-oeuvres h4 {
     padding: 12px;
   }
@@ -68,3 +73,21 @@
       height: 100%;
     }
   }
+@media screen and (min-width: 700px) and (max-width: 1025px)
+{
+  .features-right h3 {
+    margin: 0rem;
+  }
+  .features-right h4 {
+    
+    margin:0rem;
+   
+  }
+  
+  .features-oeuvres{
+    margin-top: 1rem;
+  }
+  .features-right {
+   padding-left: 1rem;
+  }
+}

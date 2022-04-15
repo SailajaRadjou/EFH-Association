@@ -43,8 +43,8 @@
   }
   
   .nav-links a {
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.3rem;
+    font-weight: 500;
     color: var(--color-white);
     text-decoration: none;
     margin-right: 1rem;
@@ -99,7 +99,7 @@
         display: block;
         position: absolute;
         list-style: none;
-        background: #0a1930;
+        background: radial-gradient(circle, rgba(0,102,178,1) 30%, rgba(10,35,81,1) 80%);
         left: 0;
         top: 80px;
         width: 100%;

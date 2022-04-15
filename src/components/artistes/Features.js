@@ -21,7 +21,7 @@ const Features = () => {
             </div>
             <div className="features-right" data-aos="fade-left">
               <h3>Baya Luce</h3>
-                <p className="u-text-small">
+                <p className="features-description">
                   Artiste peintre confirmée. De Paris à Kiev en passant par Yokohama, Baya Luce s’est construite dans l’art et la profondeur de l’imagination. 
                   Baya Luce improvise à la manière d’Henri Michaud, d’une écriture toute faites de résonnances, d’enchainements visuels inattendus, s’accordant parfois de paisibles temps de pauses.
                 </p>
