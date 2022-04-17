@@ -1,0 +1,114 @@
+.creation-display{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,71,146,1) 27%, rgba(0,119,192,1) 100%);
+}
+.display-card{
+    margin-top: 2rem !important;
+}
+.creation-logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.creation-logo-title{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+.creation-logo-text span{
+    font-weight: 600;
+    color:orangered;
+    padding: .3rem;
+}
+.creation-logo-text{
+     display: flex;
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--color-white);
+}
+
+.home-icon{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-end;
+}
+
+.card-img-top{
+    width:100% !important;
+    
+}
+
+.col{
+    width:100% !important;
+    margin: 2rem;
+    display: flex;
+    align-items: stretch;
+}
+.card-body h2, .card-body p{
+    color: white;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .creation-logo-text {
+      font-size: 1.3rem;
+      font-weight: 150;
+      
+    }
+    .link-accueil{
+        visibility: hidden;
+        text-align: right;
+    }
+    .card-img-top{
+        width:100% !important;
+       
+    }
+    
+    .col{
+        width:100% !important;
+        padding: 10px !important;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+    .home-icon{
+        flex-direction: column;
+        align-items: center;
+        font-size: smaller;
+    }
+}   
+@media screen and (min-width: 700px) and (max-width: 1025px)
+{
+    .link-accueil{
+        visibility: hidden;
+    }
+    .home-icon{
+        flex-direction: column;
+        align-items: center;
+        font-size: smaller;
+    }
+    .card-img-top{
+        width:100% !important;
+       
+    }
+    
+    .col{
+        width:auto !important;
+        padding: 10px !important;
+        display: block;       
+    }
+}  
+@media screen and (min-width: 1026px)
+{
+    .display-card{
+        display: flex !important;
+        justify-content: center;
+        align-items: stretch;
+    }
+}   

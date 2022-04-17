@@ -1,5 +1,10 @@
 .styles_scroll-to-top__2A70v{
-    background-color: transparent !important;
+    border-radius: 50% !important;
+    right: 0px !important;
+    left: 49% !important;
+    bottom: 0px !important;
+    display: flex;
+    justify-content: center;
 }
 .contacte-bg {
     width: 100%;
@@ -120,11 +125,17 @@
        
         padding: 0 10px;
     }
+    .styles_scroll-to-top__2A70v{
+        left: 44.5% !important;
+    }    
 }
 @media screen and (min-width: 760px) and (max-width: 1024px)
 {
    .contacte-left{
         width: 100%;
+    }
+    .styles_scroll-to-top__2A70v{
+        left: 47.5% !important;
     }
 }
     
