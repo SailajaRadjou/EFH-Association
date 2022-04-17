@@ -5,6 +5,7 @@
     bottom: 0px !important;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .contacte-bg {
     width: 100%;
