@@ -28,7 +28,7 @@ function Creation() {
                   <img src={oeuvreImg1} className="card-img-top" alt="Peinture Caresse par Bayaluce" />
                   <div className="card-body">
                     <h2 className="card-title">Caresse Par Bayaluce</h2>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p className="card-text">Caresse Par Bayaluce , This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     
                   </div>
                 </div>
