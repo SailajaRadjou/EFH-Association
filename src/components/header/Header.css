@@ -165,8 +165,7 @@ h1 span:nth-child(2), h1 span:nth-child(3)
         max-width: 65%;
     } 
     .header h1::after
-    {
-        
+    {        
         width: 100%;
     }
     h1 span:nth-child(2), h1 span:nth-child(3)
@@ -200,8 +199,7 @@ h1 span:nth-child(2), h1 span:nth-child(3)
     .header h1
     {
         font-size: 2rem;
-        line-height: 1.4;
-      
+        line-height: 1.4;      
     }
     h1 span:nth-child(1) {
         font-weight: 600;
